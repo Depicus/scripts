@@ -21,3 +21,4 @@ EOF
 
 sudo apt update -y
 sudo apt install rabbitmq-server -y --fix-missing
+sudo rabbitmq-plugins enable rabbitmq_management
