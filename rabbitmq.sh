@@ -22,3 +22,6 @@ EOF
 sudo apt update -y
 sudo apt install rabbitmq-server -y --fix-missing
 sudo rabbitmq-plugins enable rabbitmq_management
+
+rabbitmqctl add_user admin Pa99word
+rabbitmqctl set_user_tags admin administrator
