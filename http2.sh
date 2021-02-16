@@ -1,3 +1,4 @@
+sudo apt install apache2
 sudo a2enmod http2
 sudo apachectl stop
 sudo apt install php-fpm
